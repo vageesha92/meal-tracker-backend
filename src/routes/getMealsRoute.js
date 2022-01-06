@@ -4,7 +4,7 @@ export const getMealsRoute={
     method:"get",
     path:"/Meals",
     handler: async(req,res)=>{
-        const meals=await getMeals();
-        res.status(200).json(meals);
+        const Meals=await getMeals();
+        res.status(200).json(Meals);
     },
 };
